@@ -85,7 +85,7 @@ public class Logic {
                 if (winCellCount == table.length || winRowCount == table.length) {
                     result = true;
                     break;
-                }
+                 }
             }
         }
         return result;
